@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <h1>La mia prima app con Vue CLI!</h1>
+  <div class="jumbotron">
+      <img src="https://unsplash.it/600/300?image">
   </div>
 </template>
 
@@ -15,5 +15,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+    img {
+        height: 80vh;
+    }
 
 </style>
